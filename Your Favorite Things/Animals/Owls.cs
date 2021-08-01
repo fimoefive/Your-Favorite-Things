@@ -11,7 +11,6 @@ namespace Your_Favorite_Things.Animals
         public bool Native { get; set; }
         public string Name { get; set; } 
         public int WingSpan { get; set; }
-        bool birdWatched;
 
         public Owls(bool native, string name, int wingspan)
         {
@@ -24,12 +23,13 @@ namespace Your_Favorite_Things.Animals
         {
             if (Native == true)
             {
-                Console.WriteLine($"I saw a {Name} that had a wingspan of {WingSpan}.");
+                Console.WriteLine($"I saw a {Name} that had a wingspan of {WingSpan} feet.");
+               
             }
             else
             {
                 Console.WriteLine("Did not observe any owls today.");
-                birdWatched = false;
+               
             }
         }
     }

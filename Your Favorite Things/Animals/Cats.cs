@@ -10,8 +10,7 @@ namespace Your_Favorite_Things.Animals
     {
         public string TypeOfCat { get; set; }
         public int LenghtOfCat { get; set; }
-        // public bool HasMaine HasMain { get; set; }
-        bool isNative;
+
 
         public Cats(string typeofcat, int lengthofcat)
         {
@@ -20,8 +19,7 @@ namespace Your_Favorite_Things.Animals
         }
         public void Observed()
         {
-            Console.WriteLine($"The feline observed is {TypeOfCat} and was {LenghtOfCat} feet long.");
-           // HasMain = HasMain.None;
+            Console.WriteLine($"The feline observed was a {TypeOfCat} and body length of {LenghtOfCat} feet long.");
         }
     }
 }
