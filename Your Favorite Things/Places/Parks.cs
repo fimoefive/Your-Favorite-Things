@@ -45,7 +45,7 @@ namespace Your_Favorite_Things.Places
 
         public void Trip()
         {
-            Console.WriteLine($"I look forward to visitig the {ParkName} in {Location}.");
+            Console.WriteLine($"I look forward to visitig the {ParkName} Park in {Location} again next year.");
         }
 
 
